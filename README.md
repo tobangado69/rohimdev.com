@@ -56,7 +56,6 @@ I am dedicated and adaptable, always open to new opportunities and collaboration
 
 
 ## Total Projects
-
 ![Total Projects](https://img.shields.io/badge/Total%20Projects-3-blue?style=flat-square&logo=github)
 
 ## My Services
@@ -109,6 +108,10 @@ The application can be accessed via Expo on Android/iOS.
 - Apollo
 - MongoDB
 - Expo
+
+**Setup:**
+- Server: `npm run dev`
+- App: `npm start`
 
 ### 3. [ChatApp](https://github.com/tobangado69/ChatApp)
 **Description:**  
