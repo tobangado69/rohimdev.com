@@ -3,11 +3,13 @@
 Personal website of Rohimdev, a web developer and streamer.
 
 ## Pages
+
 - Home
 - Work
 - Projects
 
 ## Inspirations
+
 - [Budi Gunawan](https://www.budigunawan.com/)
 
 ## Home
@@ -54,38 +56,43 @@ I am dedicated and adaptable, always open to new opportunities and collaboration
 - Supabase
 - Figma
 
-
 ## Total Projects
+
 ![Total Projects](https://img.shields.io/badge/Total%20Projects-3-blue?style=flat-square&logo=github)
 
 ## My Services
 
 - **Web Development**  
-    I specialize in full-stack JavaScript development, building responsive and user-friendly web applications using modern frameworks like React, Node.js, and MongoDB.
+   I specialize in full-stack JavaScript development, building responsive and user-friendly web applications using modern frameworks like React, Node.js, and MongoDB.
 
 - **Mobile Development**  
-    I have experience developing cross-platform mobile applications with React Native, delivering seamless experiences on both iOS and Android devices.
+   I have experience developing cross-platform mobile applications with React Native, delivering seamless experiences on both iOS and Android devices.
 
 ## Projects
 
 ### 1. [Rohimdev.com](https://rohimdev.com)
+
 **Description:**  
 My personal website, built with HTML, CSS, and JavaScript. It showcases my portfolio, skills, and projects. The website is designed to be responsive and user-friendly, providing a seamless experience across devices.
 
 **Tech Stack:**
+
 - HTML
 - CSS
 - JavaScript
 
 ### 2. [MobileFB](https://github.com/tobangado69/Mobile-FB)
+
 **Description:**  
 MobileFB is a client-server application built with React Native, designed for learning and implementing React Native and GraphQL. The app uses technologies such as React Native, GraphQL, Apollo, MongoDB, and Expo.
 
 **Folder Structure:**
+
 - `server`: GraphQL server application
 - `app`: React Native mobile application
 
 **Main Features:**
+
 - Register & Login
 - Add, view, edit, delete, and update posts
 - Comment on posts (embedded documents)
@@ -96,6 +103,7 @@ MobileFB is a client-server application built with React Native, designed for le
 - Customize profile
 
 **Development Plans:**
+
 - Improved responsiveness & error/loading feedback
 - Data cache optimization
 
@@ -103,6 +111,7 @@ MobileFB is a client-server application built with React Native, designed for le
 The application can be accessed via Expo on Android/iOS.
 
 **Tech Stack:**
+
 - React Native
 - GraphQL
 - Apollo
@@ -110,33 +119,47 @@ The application can be accessed via Expo on Android/iOS.
 - Expo
 
 **Setup:**
+
 - Server: `npm run dev`
 - App: `npm start`
 
 ### 3. [ChatApp](https://github.com/tobangado69/ChatApp)
+
 **Description:**  
 ChatApp is a simple chat application developed as a learning project to implement real-time interaction features between logged-in users.
 
 **Tech Stack:**
 
-- **Server:**  
-    - Express.js  
-    - Socket.IO  
-    - Sequelize
+- **Server:**
 
-- **Client:**  
-    - React  
-    - Context API  
-    - Socket.IO Client  
-    - SweetAlert2  
-    - Tailwind CSS
+  - Express.js
+  - Socket.IO
+  - Sequelize
+
+- **Client:**
+  - React
+  - Context API
+  - Socket.IO Client
+  - SweetAlert2
+  - Tailwind CSS
 
 **Setup:**
+
 - Server: `npx nodemon app.js`
 - Client: `npm run dev`
 
 ## Contact Me
+
 If you would like to connect or discuss a project, feel free to reach out via the following platforms:
+
 - [LinkedIn](https://www.linkedin.com/in/tobangado/)
 - [GitHub](https://github.com/tobangado69)
 - [Email](mailto:rohimjoy70@gmail.com)
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+```
+
+```
