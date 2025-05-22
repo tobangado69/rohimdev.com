@@ -66,7 +66,6 @@ I am dedicated and adaptable, always open to new opportunities and collaboration
 - Supabase
 - Figma
 
-
 ## My Services
 
 - **Web Development**  
@@ -162,3 +161,6 @@ If you would like to connect or discuss a project, feel free to reach out via th
 - [LinkedIn](https://www.linkedin.com/in/tobangado/)
 - [GitHub](https://github.com/tobangado69)
 - [Email](mailto:rohimjoy70@gmail.com)
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
