@@ -12,6 +12,12 @@ Personal website of Rohimdev, a web developer and streamer.
 
 - [Budi Gunawan](https://www.budigunawan.com/)
 
+## Links
+
+- Live Preview: [rohimdev.com](https://www.rohimdev.com/)
+- Figma: <https://www.figma.com/design/zjT4Gu3sBSQANj0uCdLVVR/Rohimdev?node-id=0-1&t=gcmJMIe47ZfNnwRO-1>
+- Github: <https://github.com/tobangado69/Portofolio>
+
 ## Home
 
 ### About Me
