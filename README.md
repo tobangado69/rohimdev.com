@@ -2,6 +2,10 @@
 
 Personal website of Rohimdev, a web developer and streamer.
 
+## Total Projects
+
+![Total Projects](https://img.shields.io/badge/Total%20Projects-3-blue?style=flat-square&logo=github)
+
 ## Pages
 
 - Home
@@ -62,9 +66,6 @@ I am dedicated and adaptable, always open to new opportunities and collaboration
 - Supabase
 - Figma
 
-## Total Projects
-
-![Total Projects](https://img.shields.io/badge/Total%20Projects-3-blue?style=flat-square&logo=github)
 
 ## My Services
 
