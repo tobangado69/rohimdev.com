@@ -66,7 +66,7 @@ I am dedicated and adaptable, always open to new opportunities and collaboration
    I specialize in full-stack JavaScript development, building responsive and user-friendly web applications using modern frameworks like React, Node.js, and MongoDB.
 
 - **Mobile Development**  
-   I have experience developing cross-platform mobile applications with React Native, delivering seamless experiences on both iOS and Android devices.
+   I develop cross-platform mobile applications using React Native, ensuring seamless experiences across iOS and Android devices.
 
 ## Projects
 
