@@ -59,18 +59,3 @@ function drawStars() {
   requestAnimationFrame(drawStars);
 }
 drawStars();
-
-// filepath: c:\Users\Administrator\Portofolio\main.js
-document.querySelectorAll(".nav-link").forEach((link) => {
-  // Ambil path dari href (tanpa domain dan query)
-  let linkPath = link.getAttribute("href");
-  // Untuk halaman utama ("/"), cocokkan juga dengan "/index.html"
-  if (
-    linkPath === window.location.pathname ||
-    (window.location.pathname === "/" && linkPath === "/")
-  ) {
-    link.classList.add("active");
-  } else {
-    link.classList.remove("active");
-  }
-});
