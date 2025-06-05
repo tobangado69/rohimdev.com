@@ -631,6 +631,7 @@ body.dark .planet {
   margin: 0 auto;
   color: #ffffff;
   border: solid 1px #333;
+  background-color: #000000; 
 }
 .footer-content {
   max-width: 800px;
