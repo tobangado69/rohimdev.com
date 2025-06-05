@@ -785,20 +785,21 @@ body.dark .planet {
 
 .resume-container {
   border-radius: 8px;
+  margin-bottom: 30px;
 }
 
 .download-resume {
   display: flex;
   justify-content: center;
   padding-top: 4rem;
-  max-width: 900px;
+  max-width: 880px;
 }
 
 .resume-button {
   background: #fff;
   color: #000;
   border: none;
-  padding: 10px 20px;
+  padding: 5px 5px;
   border-radius: 6px;
   text-decoration: none;
   font-size: 16px;
