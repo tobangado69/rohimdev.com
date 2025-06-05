@@ -123,7 +123,8 @@ footer,
     top: 64px;
     left: 0;
     width: 100vw;
-    background: #111;
+    backdrop-filter: blur(32px);
+    background: rgba(0, 0, 0, 0.85);
     flex-direction: column;
     align-items: flex-start;
     padding: 1rem 2rem;
