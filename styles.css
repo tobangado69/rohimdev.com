@@ -7,6 +7,7 @@ body {
   z-index: 1;
   font-size: 1rem;
 }
+
 #stars-bg {
   position: fixed;
   top: 0;
@@ -17,6 +18,7 @@ body {
   pointer-events: none;
   background: transparent;
 }
+
 #header,
 .container,
 section,
@@ -25,6 +27,7 @@ footer,
   position: relative;
   z-index: 2;
 }
+
 /* Header */
 #header {
   position: fixed;
@@ -100,6 +103,7 @@ footer,
   font-size: 20px;
   color: #8f8f8f;
 }
+
 .hero {
   position: relative;
   height: 100vh;
@@ -232,7 +236,7 @@ body.dark .planet {
 }
 
 .cta-links a:hover {
-  color: #60a5fa; /* blue-400 */
+  color: #60a5fa;
 }
 
 /* About Section */
@@ -268,18 +272,14 @@ body.dark .planet {
 }
 
 /* Total Projects */
-
 .total-projects-section {
   padding: 3rem 1rem;
-  /* background: #000; */
 }
 
 .total-projects-container {
   max-width: 800px;
   margin: 0 auto;
   background: transparent;
-  /* border-radius: 12px;
-  border: 1px solid #333; */
   padding: 2rem 1.5rem;
 }
 
@@ -337,7 +337,6 @@ body.dark .planet {
 }
 
 /* Tech Stack */
-
 .tech-stack-section {
   display: flex;
   justify-content: center;
@@ -348,7 +347,6 @@ body.dark .planet {
 .tech-stack-container {
   width: 100%;
   max-width: 800px;
-  /* text-align: left; */ /* Hapus baris ini jika sudah ada */
   margin: 0 auto;
 }
 
@@ -358,22 +356,23 @@ body.dark .planet {
   color: #ffffff;
   margin-bottom: 1rem;
   font-family: monospace;
-  text-align: left; /* Pastikan judul juga rata kiri */
+  text-align: left;
 }
 
 .tech-stack-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start; /* Ubah dari center ke flex-start */
+  justify-content: flex-start;
   gap: 0.5rem;
   list-style: none;
   padding: 0;
   margin: 0;
-  text-align: left; /* Tambahkan ini */
+  text-align: left;
 }
+
 .tech-stack-list li {
   padding: 6px 12px;
-  background-color: #333; /* dark gray */
+  background-color: #333;
   color: #f0f0f0;
   font-size: 0.875rem;
   font-family: monospace;
@@ -399,7 +398,6 @@ body.dark .planet {
   margin: 0 auto;
   padding: 2rem 1.5rem;
   background-color: transparent;
-  /* border: 1px solid #333; */
   border-radius: 12px;
 }
 
@@ -521,7 +519,6 @@ body.dark .planet {
   padding: 1.5rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  /* margin: 0px; */
   margin-top: 2rem;
 }
 
@@ -633,6 +630,7 @@ body.dark .planet {
   border: solid 1px #333;
   background-color: #000000;
 }
+
 .footer-content {
   max-width: 800px;
   margin: 0 auto;
@@ -666,7 +664,6 @@ body.dark .planet {
 }
 
 /* Last footer */
-
 .footer-container-icon {
   display: flex;
   gap: 1rem;
@@ -688,10 +685,12 @@ body.dark .planet {
   justify-content: center;
   padding-top: 7rem;
 }
+
 .work-title {
   font-size: 1.5rem;
   font-weight: bold;
 }
+
 .work-article {
   padding-bottom: 2.5rem;
   margin-bottom: 2.5rem;
@@ -799,7 +798,6 @@ body.dark .planet {
   background-color: #1f1f1f;
 }
 
-/*  */
 .see-repository-button {
   display: inline-flex;
   align-items: center;
