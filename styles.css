@@ -395,6 +395,15 @@ body.dark .planet {
     word-break: break-all;
     text-align: center;
     box-sizing: border-box;
+    font-size: 1.5rem;
+    min-width: 44px;
+    padding: 0.4rem 0.8rem;
+  }
+  .total-projects-title {
+    font-size: 1.1rem;
+  }
+  .total-projects-desc {
+    font-size: 0.95rem;
   }
 }
 
