@@ -1,13 +1,18 @@
-var typed= new Typed(".title",{
-    strings:["Frontend Developer","Streamer", "Web Developer", "Backend Developer"],
-    typeSpeed: 100,
-    backSpeed: 100,
-    backDelay: 1000,
-    loop: true,
-})
-// 
-const canvas = document.getElementById('stars-bg');
-const ctx = canvas.getContext('2d');
+var typed = new Typed(".running-title", {
+  strings: [
+    "Frontend Developer",
+    "Streamer",
+    "Web Developer",
+    "Backend Developer",
+  ],
+  typeSpeed: 100,
+  backSpeed: 100,
+  backDelay: 1000,
+  loop: true,
+});
+//
+const canvas = document.getElementById("stars-bg");
+const ctx = canvas.getContext("2d");
 let stars = [];
 
 function resizeCanvas() {
@@ -15,7 +20,7 @@ function resizeCanvas() {
   canvas.height = window.innerHeight;
 }
 resizeCanvas();
-window.addEventListener('resize', resizeCanvas);
+window.addEventListener("resize", resizeCanvas);
 
 function createStars(count) {
   stars = [];
@@ -25,7 +30,7 @@ function createStars(count) {
       y: Math.random() * canvas.height,
       r: Math.random() * 1.2 + 0.3,
       d: Math.random() * 0.5 + 0.2,
-      alpha: Math.random() * 0.5 + 0.5
+      alpha: Math.random() * 0.5 + 0.5,
     });
   }
 }
@@ -54,3 +59,18 @@ function drawStars() {
   requestAnimationFrame(drawStars);
 }
 drawStars();
+
+// filepath: c:\Users\Administrator\Portofolio\main.js
+document.querySelectorAll(".nav-link").forEach((link) => {
+  // Ambil path dari href (tanpa domain dan query)
+  let linkPath = link.getAttribute("href");
+  // Untuk halaman utama ("/"), cocokkan juga dengan "/index.html"
+  if (
+    linkPath === window.location.pathname ||
+    (window.location.pathname === "/" && linkPath === "/")
+  ) {
+    link.classList.add("active");
+  } else {
+    link.classList.remove("active");
+  }
+});
