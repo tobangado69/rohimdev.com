@@ -473,13 +473,14 @@ body.dark .planet {
   padding: 2rem 1.5rem;
   background-color: transparent;
   border-radius: 12px;
+  margin-top: 2rem;
 }
 
 .selected-projects-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
   flex-wrap: wrap;
   gap: 1rem;
 }
@@ -521,6 +522,7 @@ body.dark .planet {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   /* margin: 0px; */
+  margin-top: 2rem;
 }
 
 .project-card:hover {
