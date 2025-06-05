@@ -1,16 +1,20 @@
-var typed = new Typed(".running-title", {
-  strings: [
-    "Frontend Developer",
-    "Streamer",
-    "Web Developer",
-    "Backend Developer",
-  ],
-  typeSpeed: 100,
-  backSpeed: 100,
-  backDelay: 1000,
-  loop: true,
-});
-//
+const runningTitle = document.querySelector(".running-title");
+
+if (runningTitle) {
+  var typed = new Typed(".running-title", {
+    strings: [
+      "Frontend Developer",
+      "Streamer",
+      "Web Developer",
+      "Backend Developer",
+    ],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true,
+  });
+}
+
 const canvas = document.getElementById("stars-bg");
 const ctx = canvas.getContext("2d");
 let stars = [];
@@ -59,3 +63,11 @@ function drawStars() {
   requestAnimationFrame(drawStars);
 }
 drawStars();
+const navToggle = document.querySelector(".nav-toggle");
+const navMenu = document.querySelector(".center");
+
+if (navToggle && navMenu) {
+  navToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
+  });
+}
