@@ -12,6 +12,10 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
 }
+.html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
 
 /* =========================
   Layout & Containers
@@ -891,7 +895,7 @@ body.dark .planet {
   align-items: center;
   background: #181818;
   border-radius: 10px;
-  padding: 1rem;
+  padding: 0.5rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
