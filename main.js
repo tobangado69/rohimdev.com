@@ -71,3 +71,25 @@ if (navToggle && navMenu) {
     navMenu.classList.toggle("active");
   });
 }
+
+
+const images = document.querySelectorAll(".screenshot");
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
+const lightboxClose = document.getElementById("lightbox-close");
+
+images.forEach((img) => {
+  img.addEventListener("click", () => {
+    lightboxImg.src = img.src;
+    lightbox.style.display = "flex";
+  });
+});
+
+lightboxClose.addEventListener("click", () => {
+  lightbox.style.display = "none";
+});
+
+// Close lightbox when clicking anywhere inside the lightbox
+lightbox.addEventListener("click", () => {
+  lightbox.style.display = "none";
+});
