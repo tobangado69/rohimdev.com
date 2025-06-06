@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - ChatApp</title>
+    <meta
+      name="description"
+      content="A Simple Real-Time Chat Application Project"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="/assets/icon1.svg" type="image/svg+xml" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <canvas id="stars-bg"></canvas>
+    <header id="header">
+      <div class="container">
+        <div class="left">
+          <a href="/" class="brand">
+            <img src="/assets/icon1.svg" alt="logo" />
+            <span>Rohim Dev</span>
+          </a>
+        </div>
+
+        <button class="nav-toggle" aria-label="Open navigation">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+
+        <nav class="center">
+          <a href="/" class="nav-link">Home</a>
+          <a href="/work" class="nav-link">Work</a>
+          <a href="/projects" class="nav-link active">Projects</a>
+        </nav>
+      </div>
+    </header>
+    <!-- Project Section -->
+    <div class="back-to-projects">
+      <a href="/projects" class="back-to-projects-link">
+        <span>Back to projects</span>
+      </a>
+    </div>
+
+    <section class="project-section">
+      <div class="project-container">
+        <div class="project-header">
+          <h2 class="project-date">February, 2024</h2>
+          <h1 class="project-title">Chat App</h1>
+        </div>
+        <div class="project-description">
+          <p>
+            This is a simple chat application designed as a learning project to
+            implement real-time interaction features between logged-in users.
+          </p>
+        </div>
+        <div class="see-demo-container">
+          <div class="see-demo">
+            <a href="" target="_blank" class="see-demo-button">
+              <img
+                src="/assets/website icon.svg"
+                alt="website icon"
+                width="24"
+              />
+              <span>See Demo</span>
+            </a>
+          </div>
+        </div>
+        <div class="see-repository-container">
+          <div class="see-repository">
+            <a
+              href="https://github.com/tobangado69/chatapp"
+              target="_blank"
+              class="see-repository-button"
+            >
+              <img src="/assets/link.svg" alt="website icon" width="24" />
+              <span>See Repository</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Explanation -->
+
+      <div class="project-explanation">
+        <div class="project-explanation-header">
+          <div class="project-explanation-image">
+            <img src="/assets/chat-app/home.png" alt="" width="600px" />
+          </div>
+          <h2 class="project-explanation-title">Short Explanation</h2>
+        </div>
+        <div class="project-explanation-content">
+          <p>
+            This application is designed to make it easy for users to
+            communicate in real-time. Every logged-in user can send messages
+            directly to each other without needing to refresh the page.
+          </p>
+        </div>
+        <p>Main features available:</p>
+        <ul>
+          <li>User registration and login</li>
+          <li>Real-time chat between logged-in users</li>
+          <li>Instant message notifications</li>
+          <li>List of online users</li>
+          <li>Responsive and user-friendly UI</li>
+        </ul>
+
+        <!-- Project Goals -->
+
+        <h2>Project Goals</h2>
+        <ul>
+          <li>Implement real-time communication concepts using SocketIO.</li>
+          <li>
+            Understand integration between backend (Express, Sequelize) and
+            frontend (React).
+          </li>
+          <li>
+            Enhance user experience with interactive notifications and UI.
+          </li>
+          <li>Learn to manage global state using Context in React.</li>
+        </ul>
+        <section>
+          <h2>Links</h2>
+          <ul>
+            <li>
+              <a
+                href="https://github.com/tobangado69/chatapp"
+                target="_blank"
+                class="social-name"
+                >Repository</a
+              >
+            </li>
+            <li>
+              <a href="#" target="_blank" class="social-name"
+                >Demo (coming soon)</a
+              >
+            </li>
+          </ul>
+        </section>
+        <!-- Tech Stack -->
+        <section>
+          <h2>Tech Stack</h2>
+          <ul>
+            <li><b>Server:</b> Express, SocketIO, Sequelize</li>
+            <li>
+              <b>Client:</b> React, Context, SocketIO Client, Sweetalert2,
+              Tailwind
+            </li>
+          </ul>
+        </section>
+        <!-- Screenshots -->
+        <section>
+          <h2>Screenshots</h2>
+          <div class="screenshots">
+            <div class="screenshot-item">
+              <img
+                src="/assets/chat-app/login.png"
+                width="600px"
+                alt="Login Page"
+                class="screenshot"
+              />
+              <p>Login/Register Page</p>
+            </div>
+            <div class="screenshot-item">
+              <img
+                src="/assets/chat-app/home.png"
+                width="600px"
+                alt="Chat Room"
+                class="screenshot"
+              />
+              <p>Chat Room</p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Lesson Learned</h2>
+          <p>
+            In developing this project, I learned the importance of state
+            management in React applications, especially when handling user
+            authentication and real-time data. Using SocketIO was very helpful
+            in implementing direct two-way communication.
+          </p>
+          <p>
+            Additionally, I gained experience in designing responsive and
+            user-friendly UIs, as well as efficient integration between backend
+            and frontend.
+          </p>
+        </section>
+      </div>
+    </section>
+    <!-- Back To top button -->
+    <div class="back-to-top">
+      <a href="#">
+        <img src="/assets/arrow-top.svg" alt="Back to top" width="24" />
+        <span>Back to top</span>
+      </a>
+    </div>
+
+    <!-- Footer Section Rohim Dev -->
+    <footer>
+      <div class="footer-section">
+        <div class="container">
+          <div class="left">
+            <a href="/" class="brand">
+              <img src="/assets/icon1.svg" alt="logo" />
+              <span>Rohim Dev</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-section">
+        <div class="container">
+          <div class="left"></div>
+          <p>Terms | Privacy</p>
+          <p>&copy; 2024 | All rights reserved.</p>
+        </div>
+        <div class="footer-container-icon">
+          <div class="right">
+            <a href="mailto:rohimjoy70@gmail.com">
+              <img
+                src="/assets/gmail.svg"
+                alt="Gmail"
+                class="gmail"
+                width="30"
+              />
+            </a>
+          </div>
+          <div class="right">
+            <a
+              href="https://linkedin.com/in/tobangado"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/assets/linkedin.svg"
+                alt="LinkedIn"
+                class="linkedin"
+                width="30"
+              />
+            </a>
+          </div>
+          <div class="right">
+            <a
+              href="https://github.com/tobangado69"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/assets/github.svg"
+                alt="GitHub"
+                class="github"
+                width="30"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../../main.js"></script>
+  </body>
+</html>
