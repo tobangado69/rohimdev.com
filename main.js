@@ -85,11 +85,15 @@ images.forEach((img) => {
   });
 });
 
-lightboxClose.addEventListener("click", () => {
-  lightbox.style.display = "none";
-});
+if (lightboxClose) {
+  lightboxClose.addEventListener("click", () => {
+    lightbox.style.display = "none";
+  });
+}
 
 // Close lightbox when clicking anywhere inside the lightbox
-lightbox.addEventListener("click", () => {
-  lightbox.style.display = "none";
-});
+if (lightbox) {
+  lightbox.addEventListener("click", () => {
+    lightbox.style.display = "none";
+  });
+}
