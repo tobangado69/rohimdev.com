@@ -72,7 +72,6 @@ if (navToggle && navMenu) {
   });
 }
 
-
 const images = document.querySelectorAll(".screenshot");
 const lightbox = document.getElementById("lightbox");
 const lightboxImg = document.getElementById("lightbox-img");
@@ -90,6 +89,22 @@ if (lightboxClose) {
     lightbox.style.display = "none";
   });
 }
+// Back to top functionality
+document.addEventListener("DOMContentLoaded", function () {
+  const backToTopButtons = document.querySelectorAll(".back-to-top a");
+
+  backToTopButtons.forEach(function (button) {
+    button.addEventListener("click", function (e) {
+      e.preventDefault(); // Mencegah default anchor behavior
+
+      // Scroll ke atas dengan animasi halus
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    });
+  });
+});
 
 // Close lightbox when clicking anywhere inside the lightbox
 if (lightbox) {
