@@ -45,6 +45,7 @@ I am dedicated and adaptable, always open to new opportunities and collaboration
 - React Native
 - JavaScript
 - TypeScript
+- Golang
 - Next.js
 - Apollo GraphQL
 - Node.js
